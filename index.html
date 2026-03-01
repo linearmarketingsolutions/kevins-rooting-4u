@@ -217,6 +217,7 @@
     .logo img {
       height: 100px; width: auto;
       transition: transform 0.2s;
+      border-radius: 50%;
     }
     .logo:hover img { transform: scale(1.03); }
     .footer-brand .logo img { height: 110px; }
@@ -379,7 +380,8 @@
     }
 
     @media (max-width: 900px) {
-      .hero { padding: 120px 0 60px; }
+      .logo img { height: 70px; }
+      .hero { padding: 130px 0 60px; }
       .hero-grid { grid-template-columns: 1fr; gap: 40px; }
       .trust-row { grid-template-columns: 1fr 1fr; }
     }
